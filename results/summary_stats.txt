@@ -1,0 +1,25 @@
+Info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1000 entries, 0 to 999
+Data columns (total 5 columns):
+ #   Column    Non-Null Count  Dtype  
+---  ------    --------------  -----  
+ 0   area      1000 non-null   int64  
+ 1   bedrooms  1000 non-null   int64  
+ 2   age       1000 non-null   int64  
+ 3   location  1000 non-null   object 
+ 4   price     1000 non-null   float64
+dtypes: float64(1), int64(3), object(1)
+memory usage: 39.2+ KB
+
+
+Describe:    
+              area     bedrooms          age          price
+count  1000.000000  1000.000000  1000.000000    1000.000000
+mean   2429.857000     2.993000    24.764000  499727.709382
+std     929.914229     1.424423    14.029937  171474.481926
+min     801.000000     1.000000     1.000000   31535.997278
+25%    1629.500000     2.000000    13.000000  369925.317159
+50%    2430.500000     3.000000    24.000000  502106.664298
+75%    3254.250000     4.000000    37.000000  626217.010182
+max    3997.000000     5.000000    49.000000  981792.767435
